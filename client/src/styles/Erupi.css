@@ -1,0 +1,109 @@
+.transaction-form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 10px;
+}
+
+.transaction-form-container h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.transaction-form-container form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.transaction-form-container label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.amount-images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.amount-images-container .rupee-notes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.amount-images-container .rupee-notes img {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+
+.amount-images-container .coin-notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.amount-images-container .coin-notes img {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.transaction-form-container input[type="number"],
+.transaction-form-container input[type="text"],
+.transaction-form-container input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.transaction-form-container .form-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.transaction-form-container .form-row label {
+  flex: 0 0 200px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.transaction-form-container .form-row input[type="number"] {
+  text-align: center;
+}
+
+.alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.alert.success {
+  background-color: #4caf50;
+}
+
+.alert.show {
+  opacity: 1;
+}
+.amount-images-container .rupee-notes img,
+.amount-images-container .coin-notes img {
+  cursor: pointer;
+}

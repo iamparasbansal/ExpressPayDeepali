@@ -1,0 +1,14 @@
+.group{
+    background: #FC5185;
+    width: 180px;
+    margin: 0 auto 30px;
+    display: grid;
+    grid-template-columns: 150px 80px;
+    border-radius: 15px;
+}
+
+select{
+    padding: 13px;
+    text-align: center;
+    margin-bottom: 22px;
+}

@@ -1,0 +1,37 @@
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+ 
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly
+  }
+  
+  .card {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+  }
+  h1 {
+  
+    text-align: center;
+    color: #ff69b4;
+    font-weight:lighter;
+}  */

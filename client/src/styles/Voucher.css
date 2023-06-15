@@ -1,0 +1,61 @@
+.voucher-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .voucher-inner-container {
+    padding: 20px;
+    background-color: rgba(255, 192, 203, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .voucher-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .voucher-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+  }
+  
+  .voucher-submit-btn {
+    background-color: #ff69b4;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    transition: background-color 0.3s ease;
+  }
+  
+  .voucher-submit-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  
